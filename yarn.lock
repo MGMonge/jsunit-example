@@ -661,7 +661,7 @@ babel-plugin-transform-strict-mode@^6.24.1:
     babel-runtime "^6.22.0"
     babel-types "^6.24.1"
 
-babel-preset-env@^1.1.8, babel-preset-env@^1.6.0:
+babel-preset-env@^1.6.0:
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/babel-preset-env/-/babel-preset-env-1.6.0.tgz#2de1c782a780a0a5d605d199c957596da43c44e4"
   dependencies:
@@ -990,7 +990,7 @@ combined-stream@^1.0.5, combined-stream@~1.0.5:
   dependencies:
     delayed-stream "~1.0.0"
 
-commander@^2.9.0:
+commander@^2.11.0:
   version "2.11.0"
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.11.0.tgz#157152fd1e7a6c8d98a5b715cf376df928004563"
 
@@ -1059,8 +1059,8 @@ core-assert@^0.2.0:
     is-error "^2.2.0"
 
 core-js@^2.0.0, core-js@^2.4.0, core-js@^2.5.0:
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.5.0.tgz#569c050918be6486b3837552028ae0466b717086"
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.5.1.tgz#ae6874dc66937789b80754ff5428df66819ca50b"
 
 core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
@@ -1245,8 +1245,8 @@ ecc-jsbn@~0.1.1:
     jsbn "~0.1.0"
 
 electron-to-chromium@^1.3.18:
-  version "1.3.18"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.18.tgz#3dcc99da3e6b665f6abbc71c28ad51a2cd731a9c"
+  version "1.3.19"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.19.tgz#73d97b0e8b05aa776cedf3cdce7fdc0538037675"
 
 empower-core@^0.6.1:
   version "0.6.2"
@@ -1497,7 +1497,7 @@ glob-parent@^2.0.0:
   dependencies:
     is-glob "^2.0.0"
 
-glob@^7.0.3, glob@^7.0.5, glob@^7.0.6, glob@^7.1.1:
+glob@^7.0.3, glob@^7.0.5, glob@^7.0.6, glob@^7.1.2:
   version "7.1.2"
   resolved "https://registry.yarnpkg.com/glob/-/glob-7.1.2.tgz#c19c9df9a028702d678612384a6552404c636d15"
   dependencies:
@@ -1885,29 +1885,6 @@ js-string-escape@^1.0.1:
 js-tokens@^3.0.0, js-tokens@^3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-3.0.2.tgz#9866df395102130e38f7f996bceb65443209c25b"
-
-js-unit@^1.1.3:
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/js-unit/-/js-unit-1.1.3.tgz#212c87d06cf07cdfa6cb222042c09f2948a725a3"
-  dependencies:
-    ava "^0.22.0"
-    babel-core "^6.21.0"
-    babel-preset-env "^1.6.0"
-    colors "^1.1.2"
-    commander "^2.9.0"
-    esprima "^4.0.0"
-    esprima-walk "^0.1.0"
-    glob "^7.1.1"
-    jasmine "^2.7.0"
-    jsdom-light "^1.0.2"
-    mkdirp "^0.5.1"
-    module-alias "^2.0.1"
-    pretty-error "^2.1.1"
-    require-extension-hooks "^0.3.0"
-    require-extension-hooks-babel "^0.1.1"
-    require-extension-hooks-vue "^0.4.0"
-    source-map-support "^0.4.16"
-    vue "^2.4.2"
 
 js-yaml@^3.8.2:
   version "3.9.1"
@@ -2432,6 +2409,28 @@ performance-now@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/performance-now/-/performance-now-0.2.0.tgz#33ef30c5c77d4ea21c5a53869d91b56d8f2555e5"
 
+petrol@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/petrol/-/petrol-1.0.2.tgz#62eb8035d58f8344a5470c6c1a0fe6496c003c5d"
+  dependencies:
+    ava "^0.22.0"
+    babel-core "^6.21.0"
+    babel-preset-env "^1.6.0"
+    colors "^1.1.2"
+    commander "^2.11.0"
+    esprima "^4.0.0"
+    esprima-walk "^0.1.0"
+    glob "^7.1.2"
+    jasmine "^2.7.0"
+    jsdom-light "^1.0.2"
+    mkdirp "^0.5.1"
+    module-alias "^2.0.1"
+    pretty-error "^2.1.1"
+    require-extension-hooks "^0.3.0"
+    require-extension-hooks-vue "^0.4.0"
+    source-map-support "^0.4.16"
+    vue "^2.4.2"
+
 pify@^2.0.0, pify@^2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/pify/-/pify-2.3.0.tgz#ed141a6ac043a849ea588498e7dca8b15330e90c"
@@ -2726,13 +2725,6 @@ repeating@^2.0.0:
     tunnel-agent "^0.6.0"
     uuid "^3.0.0"
 
-require-extension-hooks-babel@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/require-extension-hooks-babel/-/require-extension-hooks-babel-0.1.1.tgz#15b7266c2fc01694bf9a83a54d1ab08ceeb664af"
-  dependencies:
-    babel-core "^6.21.0"
-    babel-preset-env "^1.1.8"
-
 require-extension-hooks-vue@^0.4.0:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/require-extension-hooks-vue/-/require-extension-hooks-vue-0.4.0.tgz#c963900d20632ccb2b0ab973b3e1724335aa1b54"
@@ -2972,8 +2964,8 @@ supports-color@^2.0.0:
   resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-2.0.0.tgz#535d045ce6b6363fa40117084629995e9df324c7"
 
 supports-color@^4.0.0:
-  version "4.2.1"
-  resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-4.2.1.tgz#65a4bb2631e90e02420dba5554c375a4754bb836"
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-4.4.0.tgz#883f7ddabc165142b2a61427f3352ded195d1a3e"
   dependencies:
     has-flag "^2.0.0"
 

@@ -1,5 +1,5 @@
 {
   "dependencies": {
-    "js-unit": "^1.1.3"
+    "petrol": "^1.0.2"
   }
 }

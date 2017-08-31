@@ -1,5 +1,5 @@
 import Example from "../src/Example.vue";
-import VueTestCase from "js-unit/core/VueTestCase.js";
+import VueTestCase from "petrol/core/VueTestCase.js";
 
 export default class ExampleVueTest extends VueTestCase {
     beforeEach() {

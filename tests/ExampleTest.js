@@ -1,4 +1,4 @@
-import TestCase from "js-unit/core/TestCase";
+import TestCase from "petrol/core/TestCase";
 import TodoList from "../src/TodoList";
 
 export default class ExampleTest extends TestCase {
