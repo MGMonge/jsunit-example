@@ -7,6 +7,6 @@ cd petrol_example
 
 npm install
 
-./node_modules/petrol/bin/petrol tests/
+./node_modules/petrol/bin/petrol run
 
 ```
