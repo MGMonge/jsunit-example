@@ -25,8 +25,8 @@
                     email: '',
                     password: '',
                     terms: false,
-                    select: '',
-                    radio: 'No'
+                    method: 'GET',
+                    active: 'No'
                 }
             }
         }
